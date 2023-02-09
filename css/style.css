@@ -41,7 +41,7 @@ header > h1 {
 
 main {
     margin: auto;
-    min-width: 400px;
+    min-width: 320px;
     max-width: 1000px;
     background-color: #100A35;
     box-shadow: inset 0px 0px 14px #7E07A6;
@@ -52,14 +52,14 @@ main > section {
     margin: auto;
     display: inline-block;
     width: 100%;
-    min-width: 400px;
+    min-width: 320px;
     max-width: 1000px;
 }
 
 main > section >img {
     margin: auto;
     width: 100%;
-    min-width: 400px;
+    min-width: 320px;
     max-width: 1000px;
     padding: 40px 40px 0px 40px;
 }
@@ -99,6 +99,7 @@ main a:hover {
     box-shadow: 1px 1px 16px black;
     color: #300838;
     font-weight: bold;
+    transition-duration: 1s;
 }
 
 footer {
