@@ -51,34 +51,35 @@ main {
 main > section {
     margin: auto;
     display: inline-block;
-    min-width: 320px;
+    width: 100%;
+    min-width: 400px;
     max-width: 1000px;
 }
 
 main > section >img {
     margin: auto;
-    width: 1000px;
-    min-width: 320px;
+    width: 100%;
+    min-width: 400px;
     max-width: 1000px;
     padding: 40px 40px 0px 40px;
 }
 
 main > section > div {
     margin: auto;
-    width: 100px;
+    width: 100%;
     max-width: 1000px;
     min-width: 320px;
-    text-align: center;
     background-color: #100A35;
     box-shadow: 0px 0px 14px #7E07A6;
     border-radius: 10px;
+    text-align: center;
 }
 
 main a {
-    text-decoration: none;
-    color: white;
     display: block;
     padding: 10px;
+    text-decoration: none;
+    color: white;
 }
 
 main nav {
@@ -88,27 +89,27 @@ main nav {
 
 main nav a{
     display: inline-block;
-    padding: 15px 20px 15px 20px;
     margin-left: 10px;
+    padding: 15px 20px 15px 20px;
 }
 
 main a:hover { 
-    color: #300838;
-    background: linear-gradient(to right, #100A35,  #B41CD4, #100A35);
+    background: linear-gradient(to right, #100A35,  #B41CD4, #100A35);    
     border-radius: 10px;
-    font-weight: bold;
     box-shadow: 1px 1px 16px black;
+    color: #300838;
+    font-weight: bold;
 }
 
 footer {
-    height: 60px;
     background-image: url(../imagens/29.png);
+    height: 60px;
     text-align: center;
 }
 
 footer p {
-    background: linear-gradient(to bottom, #B90349, rgb(108, 0, 151),  #B41CD4);
     display: inline-block;
+    background: linear-gradient(to bottom, #B90349, rgb(108, 0, 151),  #B41CD4);
     -webkit-background-clip: text;
     color: transparent;
     padding-top: 20px;
@@ -116,16 +117,16 @@ footer p {
 }
 
 footer > p > a {
-    text-decoration: none;
-    background: linear-gradient(to bottom, #B90349, rgb(108, 0, 151),  #B41CD4);
     display: inline-block;
+    background: linear-gradient(to bottom, #B90349, rgb(108, 0, 151),  #B41CD4);
     -webkit-background-clip: text;
     color: transparent;
+    text-decoration: none;
 }
 
 #rodape:hover {
+    border-radius: 10px;
     text-decoration: underline;
     color: white;
-    border-radius: 10px;
     font-weight: bold;
 }
