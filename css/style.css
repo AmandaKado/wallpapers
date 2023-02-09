@@ -62,7 +62,6 @@ main > section >img {
     width: 100%;
     min-width: 320px;
     max-width: 1000px;
-    padding: 40px 40px 0px 40px;
 }
 
 main > section > div {
