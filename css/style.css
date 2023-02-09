@@ -95,9 +95,9 @@ main nav a{
 }
 
 main a:hover { 
-    background: linear-gradient(to right, #100A35,  #B41CD4, #100A35);    
+    background-color: #B41CD4;  
     border-radius: 10px;
-    box-shadow: 1px 1px 16px black;
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.432);
     color: #300838;
     font-weight: bold;
     transition-duration: 0.5s;
