@@ -41,6 +41,7 @@ header > h1 {
 
 main {
     margin: auto;
+    width: 100%;
     min-width: 320px;
     max-width: 1000px;
     background-color: #100A35;
@@ -99,7 +100,7 @@ main a:hover {
     box-shadow: 1px 1px 16px black;
     color: #300838;
     font-weight: bold;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 footer {
