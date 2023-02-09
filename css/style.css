@@ -40,39 +40,37 @@ header > h1 {
 }
 
 main {
-    background-color: #100A35;
     margin: auto;
-    box-shadow: inset 0px 0px 14px #7E07A6;
-    border-radius: 20px;
     min-width: 400px;
     max-width: 1000px;
+    background-color: #100A35;
+    box-shadow: inset 0px 0px 14px #7E07A6;
+    border-radius: 20px;
 }
 
 main > section {
+    margin: auto;
     display: inline-block;
     min-width: 320px;
     max-width: 1000px;
-    margin: auto;
 }
 
 main > section >img {
-    /*width: 100%;*/
-    max-width: 1000px;
-    min-width: 320px;
-    padding: 40px 40px 0px 40px;
     margin: auto;
-}
-
-img#unico {
     width: 1000px;
+    min-width: 320px;
+    max-width: 1000px;
+    padding: 40px 40px 0px 40px;
 }
 
 main > section > div {
+    margin: auto;
+    width: 100px;
+    max-width: 1000px;
     min-width: 320px;
     text-align: center;
     background-color: #100A35;
     box-shadow: 0px 0px 14px #7E07A6;
-    margin: auto;
     border-radius: 10px;
 }
 
